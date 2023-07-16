@@ -204,3 +204,35 @@ main{
     font-size: 1.2em;
 }
 
+/* Facts styles */
+.facts-container p{
+    margin: 2% 0 10%;
+}
+.stats-container{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.stats-container h2{
+    color: #424242;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.stats-container p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #727272;
+}
+
+.stat{
+    padding: 18% 10%;
+    border: 1px solid #FF900E;
+    border-radius: 5%;
+}
+

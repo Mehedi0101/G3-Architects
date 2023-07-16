@@ -13,11 +13,11 @@
         margin: 4% auto;
     }
 
-    .secondary-heading {
+    .secondary-heading, .facts-container h2 {
         font-size: 1.6rem;
     }
 
-    .nav-container a {
+    .nav-container a, .facts-container p {
         font-size: 0.8rem;
     }
 
@@ -37,7 +37,8 @@
     .quick-feature-container,
     .quick-feature-img-container,
     .quick-feature-info,
-    .main-feature-info {
+    .main-feature-info,
+    .facts-container {
         width: 100%;
         margin-top: 5%;
         text-align: center;
@@ -79,6 +80,10 @@
         display: none;
     }
 
+    .stats-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
 
 }
 
@@ -107,7 +112,7 @@
         padding: 2% 5%;
     }
 
-    .secondary-heading {
+    .secondary-heading, .facts-container h2 {
         font-size: 1.5rem;
         margin-bottom: 3%;
     }
