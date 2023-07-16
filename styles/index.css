@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* common styles */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.secondary-heading{
+    font-size: 2rem;
+    color: #131313;
+}
+
+
+/* header section */
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+}
+
+/* navigation bar styles */
+.nav-container{
+    display: flex;
+    padding: 1% 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu-container{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu-container {
+    list-style: none;
+}
+
+.nav-container a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 1rem;
+}
