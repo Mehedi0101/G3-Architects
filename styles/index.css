@@ -135,3 +135,44 @@ main{
     width: 45%;
 }
 
+
+/* main feature styles */
+.main-feature-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 0;
+}
+
+.main-feature-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-feature-info h2{
+    padding-left: 15px;
+    border-left: 3px solid #FF900E;
+    margin-bottom: 3%;
+}
+
+.main-feature-articles{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-feature-info h3{
+    font-size: 1.1rem;
+    font-weight: 600px;
+    margin-bottom: 1%;
+}
+
+.main-feature-img{
+    width: 50%;
+    align-self: center;
+}
+
+.main-feature-img img{
+    width: 100%;
+}
+
