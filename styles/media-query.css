@@ -17,7 +17,7 @@
         font-size: 1.6rem;
     }
 
-    .nav-container a, .facts-container p {
+    .nav-container a, .facts-container p, footer {
         font-size: 0.8rem;
     }
 
@@ -84,6 +84,9 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .sponsor-container{
+        margin-top: 20%;
+    }
 
 }
 
@@ -124,7 +127,7 @@
     .banner-container,
     .quick-feature-container,
     .quick-feature-img-container,
-    .quick-feature-info {
+    .quick-feature-info{
         margin-top: 10%;
     }
 
@@ -142,6 +145,10 @@
 
     .main-feature-info h3{
         font-size: 0.9rem;
+    }
+
+    .logo-container img{
+        width: 70%;
     }
 
 }

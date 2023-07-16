@@ -236,3 +236,36 @@ main{
     border-radius: 5%;
 }
 
+
+/* sponsor styles */
+.sponsor-container{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.sponsor-container p{
+    margin: 2% 0;
+}
+
+.logo-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-between;
+}
+
+.logo-container img{
+    width: 50%;
+}
+
+/* footer styles */
+
+footer{
+    color: #424242;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10% 0;
+}
+
+
+
