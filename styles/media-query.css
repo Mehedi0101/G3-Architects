@@ -1,11 +1,20 @@
 /* extra small device */
 @media screen and (max-width:576px){
+    .primary-text{
+        font-size: 0.7rem;
+    }
+
+    .btn-primary{
+        font-size: 0.9rem;
+        padding: 10px 18px;
+    }
+
     .nav-container{
         flex-direction: column;
         padding: 2% 5%;
     }
 
-    .nav-title{
+    .secondary-heading{
         font-size: 1.5rem;
         margin-bottom: 3%;
     }
@@ -14,15 +23,44 @@
         width: 80%;
     }
 
+    .banner-container{
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .banner-text{
+        width: 90%;
+        margin: 4% auto;
+    }
+
+    .banner-info{
+        width: 100%;
+    }
+
+    .banner-title{
+        font-size: 2.3rem;
+    }
+
 }
 
 /* small device */
 @media screen and (max-width: 768px) {
-    .nav-title{
+    .primary-text{
+        font-size: 0.8rem;
+    }
+    .secondary-heading{
         font-size: 1.6rem;
     }
 
     .nav-container a{
         font-size: 0.8rem;
+    }
+
+    .banner-info{
+        width: 80%;
+    }
+
+    .banner-title{
+        font-size: 2.5rem;
     }
 }
