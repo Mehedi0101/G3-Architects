@@ -1,52 +1,8 @@
-/* extra small device */
-@media screen and (max-width:576px){
-    .primary-text{
-        font-size: 0.7rem;
-    }
-
-    .btn-primary{
-        font-size: 0.9rem;
-        padding: 10px 18px;
-    }
-
-    .nav-container{
-        flex-direction: column;
-        padding: 2% 5%;
-    }
-
-    .secondary-heading{
-        font-size: 1.5rem;
-        margin-bottom: 3%;
-    }
-
-    .nav-menu-container {
-        width: 80%;
-    }
-
-    .banner-container{
-        width: 100%;
-        margin-top: 15%;
-    }
-
-    .banner-text{
-        width: 90%;
-        margin: 4% auto;
-    }
-
-    .banner-info{
-        width: 100%;
-    }
-
-    .banner-title{
-        font-size: 2.3rem;
-    }
-
-}
-
 /* small device */
 @media screen and (max-width: 768px) {
     .primary-text{
-        font-size: 0.8rem;
+        font-size: 0.8rem; 
+        margin: 4% auto;
     }
     .secondary-heading{
         font-size: 1.6rem;
@@ -63,4 +19,68 @@
     .banner-title{
         font-size: 2.5rem;
     }
+
+    .quick-feature-container{
+        flex-direction: column-reverse;
+    }
+
+    .banner-container, .quick-feature-container, .quick-feature-img-container, .quick-feature-info{
+        width: 100%;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    
+}
+
+
+/* extra small device */
+@media screen and (max-width:576px){
+    .primary-text{
+        font-size: 0.7rem;
+        margin: 4% auto;
+    }
+
+    .btn-primary{
+        font-size: 0.9rem;
+        padding: 10px 18px;
+    }
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .quick-feature-container{
+        flex-direction: column-reverse;
+    }
+
+    .nav-container{
+        padding: 2% 5%;
+    }
+
+    .secondary-heading{
+        font-size: 1.5rem;
+        margin-bottom: 3%;
+    }
+
+    .nav-menu-container {
+        width: 80%;
+    }
+
+    .banner-container, .quick-feature-container, .quick-feature-img-container, .quick-feature-info{
+        margin-top: 10%;
+    }
+
+    .banner-text{
+        width: 90%;
+    }
+
+    .banner-info{
+        width: 100%;
+    }
+
+    .banner-title{
+        font-size: 2.3rem;
+    }
+
 }
